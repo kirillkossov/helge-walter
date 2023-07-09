@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Horizontal parallax sliding slider with Swiper.js</title>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+  <div class="intro">
+    <div class="content">
+      <hgroup>
+        <h1>Helge Walter</h1>
+      </hgroup>
+      <div class="arrow-container">
+        <a href="#section" style="display: block; width: 20px; height: 20px;"><div class="arrow-down"></div></a>
+    </div>
+    </div>
+    <div class="overlay">
+
+    </div>
+
+  </div>
+  <header>
+    <nav>
+        <ul class="nav__links">
+          <li><a href="#section1">Palmaille 82</a></li>
+          <li><a href="#section2">Hammer Deich 70</a></li>
+          <li><a href="#section3">Hammer Deich 60</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div style="margin-top: -5; padding-top:7em;" id="section">
+  <section class="site"  id="section1" >
+    <div class="container">
+      <div class="slider">
+        <!-- Thumbnail navigation -->
+        <div class="swiper-container nav-slider1 nav-slider loading">
+          <div class="swiper-wrapper" role="navigation">
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1500643752441-4dc90cda350a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1500643752441-4dc90cda350a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1465408953385-7c4627c29435?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1465408953385-7c4627c29435?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1538329972958-465d6d2144ed?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTkzNg&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1538329972958-465d6d2144ed?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTkzNg&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTk1OQ&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTk1OQ&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+                <p class="title">Bernadette Newman</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-container main-slider main-slider1 loading">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1500643752441-4dc90cda350a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1500643752441-4dc90cda350a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1465408953385-7c4627c29435?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1465408953385-7c4627c29435?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1538329972958-465d6d2144ed?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTkzNg&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1538329972958-465d6d2144ed?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTkzNg&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTk1OQ&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTk1OQ&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev swiper-button-white"></div>
+          <div class="swiper-button-next swiper-button-white"></div>
+        </div>
+
+
+      </div>
+      <div class="context" style="float: left;">
+
+        <h1 class="prop-title">Palmaille 82</h1>
+        <p class="description">
+          Die Palmaille in Hamburg-Altona gehört zu den ältesten Straßen der Stadt und wurde 1638 im Dreißigjährigen
+          Krieg angelegt. Ursprünglich diente sie als Spielbahn für das Ballspiel Palla a maglio, bevor sie nach Kriegs-
+          und Stadtveränderungen in den Besitz des Kaufmanns Hinrich van der Smissen überging. Die Palmaille entwickelte
+          sich seit dem Ende des 18. Jahrhunderts zu einer prächtigen Allee, geprägt von repräsentativen Gebäuden.
+          Prominente Persönlichkeiten wie der Komponist Carl Reinecke und der Dichter Detlev von Liliencron lebten hier.
+          Während des Zweiten Weltkriegs erlitt die Straße erhebliche Schäden, wurde jedoch im Nachkriegsdeutschland
+          wieder aufgebaut. Heute ist die Palmaille eine belebte Hauptstraße, die Wohn- und Geschäftsbereiche mit
+          kulturellen und historischen Sehenswürdigkeiten verbindet.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="site" id="section2">
+    <div class="container">
+      <div class="context">
+        <h1 class="prop-title" style="padding-left: 0;">Hammer Deich 70</h1>
+        <p class="description" style="padding-left: 0;">Hammerbrook, strategisch im Bezirk Hamburg-Mitte gelegen, hat
+          sich als vitales
+          Industriezentrum etabliert. Nach der nahezu vollständigen Zerstörung im Zweiten Weltkrieg diente es zunächst
+          als gewerbliche Reservefläche und Hafenerweiterungsgebiet, bevor es ab den 1980er Jahren als Bürostandort
+          unter dem Namen City Süd aufblühte. Umgeben von wichtigen Eisenbahnverbindungen im Norden und Wasserstraßen im
+          Süden, hat Hammerbrook eine faszinierende industrielle Evolution durchlaufen. Seine Geschichte als ehemaliges
+          Marschgebiet, das in den 1840er Jahren entwässert und aufgehöht wurde, spiegelt sich heute in der Vielfalt der
+          ansässigen Unternehmen und Betriebe wider. Der Hammer Deich symbolisiert die industrielle Kraft dieses
+          Stadtteils und seine beständige Anpassungsfähigkeit im Wandel der Zeiten.</p>
+      </div>
+      <div class="slider" style="float: right;">
+        <div class="swiper-container main-slider main-slider2 loading">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1500643752441-4dc90cda350a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1500643752441-4dc90cda350a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1465408953385-7c4627c29435?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1465408953385-7c4627c29435?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1538329972958-465d6d2144ed?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTkzNg&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1538329972958-465d6d2144ed?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTkzNg&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTk1OQ&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTk1OQ&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev swiper-button-white"></div>
+          <div class="swiper-button-next swiper-button-white"></div>
+        </div>
+        <!-- Thumbnail navigation -->
+        <div class="swiper-container nav-slider2 nav-slider-right nav-slider loading">
+          <div class="swiper-wrapper" role="navigation">
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1500643752441-4dc90cda350a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1500643752441-4dc90cda350a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1465408953385-7c4627c29435?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1465408953385-7c4627c29435?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1538329972958-465d6d2144ed?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTkzNg&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1538329972958-465d6d2144ed?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTkzNg&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTk1OQ&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTk1OQ&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+                <p class="title">Bernadette Newman</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+    </div>
+  </section>
+  <section class="site" id="section3">
+    <div class="container">
+
+      <div class="slider">
+        <!-- Thumbnail navigation -->
+        <div class="swiper-container nav-slider3 nav-slider loading">
+          <div class="swiper-wrapper" role="navigation">
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1500643752441-4dc90cda350a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1500643752441-4dc90cda350a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1465408953385-7c4627c29435?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1465408953385-7c4627c29435?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1538329972958-465d6d2144ed?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTkzNg&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1538329972958-465d6d2144ed?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTkzNg&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTk1OQ&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTk1OQ&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+                <p class="title">Bernadette Newman</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-container main-slider main-slider3 loading">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1500643752441-4dc90cda350a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1500643752441-4dc90cda350a?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1465408953385-7c4627c29435?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1465408953385-7c4627c29435?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTg2Ng&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1538329972958-465d6d2144ed?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTkzNg&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1538329972958-465d6d2144ed?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTkzNg&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <figure class="slide-bgimg"
+                style="background-image:url(https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTk1OQ&ixlib=rb-1.2.1&q=85)">
+                <img
+                  src="https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDE1NTk1OQ&ixlib=rb-1.2.1&q=85"
+                  class="entity-img" />
+              </figure>
+              <div class="content">
+
+              </div>
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev swiper-button-white"></div>
+          <div class="swiper-button-next swiper-button-white"></div>
+        </div>
+
+
+      </div>
+      <div class="context" style="float: left;">
+
+        <h1 class="prop-title">Hammer Deich 60</h1>
+        <p class="description">Inmitten der pulsierenden Stadt Hamburg liegt das aufstrebende Viertel Hammerbrook. Seine
+          Wurzeln reichen zurück in das 19. Jahrhundert, als die Region als erste Stadtweiterung nach dem verheerenden
+          Brand von 1842 entwickelt wurde. Trotz schwerer Zerstörungen im Zweiten Weltkrieg, entfaltet sich Hammerbrook
+          seit den 1980er Jahren wieder als lebendige Wohngegend. Prägnant durch Eisenbahntrassen im Norden und
+          Flussgrenzen im Süden, beherbergt es nun nicht nur Büros, sondern auch neu erbaute Wohnungen. Die
+          Transformation vom Weideland zur modernen Wohnsiedlung ist besonders entlang des historischen Hammer Deichs
+          sichtbar, der Zeugnis von Hammerbrooks reicher Vergangenheit und seiner lebendigen Gegenwart gibt.</p>
+      </div>
+    </div>
+  </section>
+</div>
+  <!-- partial:index.partial.html -->
+
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
