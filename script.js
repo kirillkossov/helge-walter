@@ -190,10 +190,10 @@ Scroller.prototype = {
     var slowScroll = currentScrollY / 2
       , blurScroll = currentScrollY * 2
       , opaScroll = 1.4 - currentScrollY / 400;
-   if(currentScrollY > wHeight )
-     $('header').css('position','fixed');
+   if(currentScrollY > 100 )
+     $('header').css('height','3em');
    else
-     $('header').css('position','relative');
+     $('header').css('height','4em');
     
     $content.css({
       'transform'         : 'translateY(' + slowScroll + 'px)',

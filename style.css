@@ -19,6 +19,11 @@
   height: 80vh;
   float: left;
   transition: opacity 0.6s ease, transform 0.3s ease;
+
+}
+
+.main-slider {
+  border-radius: 30px;
 }
 .swiper-container.nav-slider {
   width: 20%;
@@ -232,6 +237,9 @@ height: 80vh;
 .context {
   width: 50%;
   display: inline-block;
+  padding-top: 1em;
+  color: #1e247e;
+  padding-left: 1em;
 }
 
 .prop-title {
@@ -290,10 +298,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 18px 10%;
-  background-color: #24252a;
+  background-color: #000b43;
   width: 100%;
   top: 0;
   z-index: 2;
+  height: 4em;
+  position: fixed;
 }
 
 .logo {
@@ -379,4 +389,42 @@ header {
   .footer .row a i{
   margin:0% 3%;
   }
+  }
+
+  .rounded-corner-right {
+    border-radius: 0 200px 0 0;
+  }
+
+  .rounded-corner-left {
+    border-radius: 0 0 0 200px;
+  }
+
+  .background-1 {
+    background-image: url(background-1.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    -o-background-size: 85% auto;
+    -webkit-background-size: 85% auto;
+    -moz-background-size: 85% auto;
+    background-size: 85% auto;
+  }
+
+  .background-2 {
+    background-image: url(background-2.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    -o-background-size: 85% auto;
+    -webkit-background-size: 85% auto;
+    -moz-background-size: 85% auto;
+    background-size: 85% auto;
+  }
+
+  .background-3 {
+    background-image: url(background-3.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    -o-background-size: 85% auto;
+    -webkit-background-size: 85% auto;
+    -moz-background-size: 85% auto;
+    background-size: 85% auto;
   }
